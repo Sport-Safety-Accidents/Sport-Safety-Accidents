@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#header-title{
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+.header-goback-button{
+  font-size: 12px;
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header-goback-button svg{
+  width: 14px;
+  fill: white;
+}
+.header
+{
+  background-color: #5EC281;
+  position: relative;
+}
