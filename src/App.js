@@ -1,7 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import {
-  Header,
   Main,
   NotFound,
   Page1,
@@ -25,7 +24,6 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Header />
         <Routes>
           <Route path="/" element={<Main />}></Route>
           <Route path="/1" element={<Page1 />}></Route>

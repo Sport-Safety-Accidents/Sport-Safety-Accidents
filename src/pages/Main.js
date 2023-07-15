@@ -1,10 +1,11 @@
 import React from "react";
+import Container from "../assets/Cotainter";
 
 const Main = () => {
   return (
-    <div>
+    <Container title={"홈"}>
       <h2>홈</h2>
-    </div>
+    </Container>
   );
 };
 

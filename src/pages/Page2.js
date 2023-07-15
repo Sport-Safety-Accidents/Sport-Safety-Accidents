@@ -1,5 +1,5 @@
 import React from "react";
-import Component from "../assets/cotainter";
+import Component from "../assets/Cotainter";
 
 const Page2 = () => {
   return (

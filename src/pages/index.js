@@ -1,4 +1,3 @@
-export { default as Header } from "./Header.js";
 export { default as NotFound } from "./NotFound.js";
 export { default as Main } from "./Main.js";
 export { default as Page1 } from "./Page1.js";

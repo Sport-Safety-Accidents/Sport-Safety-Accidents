@@ -1,9 +1,9 @@
 import React from "react";
-import Component from "../assets/cotainter";
+import Component from "../assets/Cotainter";
 
 const Page1 = () => {
   return (
-    <Component>
+    <Component title={"심폐소생술"}>
       <div className="flex flex-col items-start py-1">
         <div className="font-semibold text-lg py-1">1. 반응확인</div>
         <div className="pl-5">
