@@ -18,29 +18,39 @@ import {
   Page8to1,
   Page8to2,
   Page8to3,
+  Loading,
+  innerlv1_4,
+  innerlv1_5,
+  innerlv1_7,
+  innerlv1_8,
 } from "./pages/index.js";
-
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main />}></Route>
+          <Route path="/loading" element={<Loading />}></Route>
           <Route path="/1" element={<Page1 />}></Route>
           <Route path="/2" element={<Page2 />}></Route>
           <Route path="/3" element={<Page3 />}></Route>
+          <Route path="/4" element={<innerlv1_4 />}></Route>
           <Route path="/4-1" element={<Page4to1 />}></Route>
           <Route path="/4-2" element={<Page4to2 />}></Route>
+          <Route path="/5" element={<innerlv1_5 />}></Route>
           <Route path="/5-1" element={<Page5to1 />}></Route>
           <Route path="/5-2" element={<Page5to2 />}></Route>
           <Route path="/5-3" element={<Page5to3 />}></Route>
           <Route path="/6" element={<Page6 />}></Route>
+          <Route path="/7" element={<innerlv1_7 />}></Route>
           <Route path="/7-1" element={<Page7to1 />}></Route>
           <Route path="/7-2" element={<Page7to2 />}></Route>
           <Route path="/7-3" element={<Page7to3 />}></Route>
+          <Route path="/8" element={<innerlv1_8 />}></Route>
           <Route path="/8-1" element={<Page8to1 />}></Route>
           <Route path="/8-2" element={<Page8to2 />}></Route>
           <Route path="/8-3" element={<Page8to3 />}></Route>
+
           {/* 엘리먼트의 상단에 위치하는 라우트들의 규칙을 모두 확인하고, 일치하는 라우트가 없다면 이 라우트가 화면에 나타나게 됩니다. */}
           <Route path="*" element={<NotFound />}></Route>
         </Routes>
