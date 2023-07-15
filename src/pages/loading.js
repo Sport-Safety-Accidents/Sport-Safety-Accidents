@@ -1,9 +1,9 @@
 import React from "react";
-
+import logo from "../logo.png";
 const Loading = () => {
   return (
     <div>
-        <image src="./logo.png"></image>
+        <img className="loading-logo" src="./logo.png"></img>
     </div>
   );
 };

@@ -6,6 +6,16 @@
   height: 40vmin;
   pointer-events: none;
 }
+@font-face {
+  font-family: 'SUITE-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+  font-family: 'SUITE-Regular';
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -62,4 +72,47 @@
 {
   background-color: #5EC281;
   position: relative;
+}
+.loading-logo{
+  display: block;
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.itemList{
+  margin-bottom: 60px;
+}
+
+.itemList-item{
+  display: block;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  width: 90%;
+  height: 160px;
+  margin: auto;
+  margin-top: 36px;
+  border-radius: 8px;
+  position: relative;
+}
+.itemList-item-img{
+  display: block;
+  width: 80px;
+  height: 100px;
+  margin: auto;
+  padding-top: 24px;
+  object-fit: contain;
+}
+.listItem-title{
+  font-size: 20px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 12px;
+  font-weight: bold;
 }
