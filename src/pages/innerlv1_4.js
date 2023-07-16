@@ -1,12 +1,18 @@
 import React from "react";
+import Component from "../assets/Cotainter";
 
-const innerlv1_4 = () => {
+
+const Innerlv1_4 = () => {
   return (
-    <div>
-    <div className="itemList">
-        <a href="/1" className="itemList-item ">
-            <img src="./main_1.png" className="itemList-item-img"></img>
-            <p className="listItem-title">심폐소생술</p>
+    <Component title={"일사병 / 열사병"}>
+    <div className="itemList inner-itemList">
+
+        <a href="/4-1" className="itemList-item ">
+            <p className="listItem-title">일사병</p>
+        </a>
+
+        <a href="/4-2" className="itemList-item ">
+            <p className="listItem-title">열사병</p>
         </a>
 
     </div>
@@ -14,8 +20,9 @@ const innerlv1_4 = () => {
 
 
 
-    </div>
-  );
+    </ Component>
+
+    );
 };
 
-export default innerlv1_4;
+export default Innerlv1_4;
